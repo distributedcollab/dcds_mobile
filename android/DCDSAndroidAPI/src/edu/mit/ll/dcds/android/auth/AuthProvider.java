@@ -29,7 +29,6 @@ package edu.mit.ll.dcds.android.auth;
 
 import java.util.concurrent.CountDownLatch;
 
-import org.apache.http.conn.ssl.SSLSocketFactory;
 import org.apache.http.entity.StringEntity;
 
 import android.util.Log;

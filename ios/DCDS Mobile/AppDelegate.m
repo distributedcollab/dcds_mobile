@@ -39,7 +39,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [GMSServices provideAPIKey:@"YOUR GOOGLE MAPS KEY"];
+    [GMSServices provideAPIKey:@"ENTER GOOGLE MAPS API KEY HERE"];
     
     // Override point for customization after application launch.
 //    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {

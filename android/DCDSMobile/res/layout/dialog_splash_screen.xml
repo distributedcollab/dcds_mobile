@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
- <!--|~^~|Copyright (c) 2008-2016, Massachusetts Institute of Technology (MIT)
+<!--
+ |~^~|Copyright (c) 2008-2016, Massachusetts Institute of Technology (MIT)
  |~^~|All rights reserved.
  |~^~|
  |~^~|Redistribution and use in source and binary forms, with or without
@@ -26,17 +27,14 @@
  |~^~|CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
  |~^~|OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  |~^~|OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- |~^~|-->
-<!--
-
-
-
+ |~^~|
 -->
+<!-- -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/RelativeLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/black"
     android:orientation="vertical" >
 
     <ImageView
@@ -51,8 +49,11 @@
         android:id="@+id/splashVersion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/weather_current_image_view"
+        android:layout_alignBottom="@+id/weather_current_image_view"
         android:layout_centerHorizontal="true"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:layout_marginBottom="18dp"
+        android:text="x.xx"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white" />
 
 </RelativeLayout>

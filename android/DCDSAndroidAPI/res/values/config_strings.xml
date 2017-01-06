@@ -71,7 +71,7 @@
     </string-array>
 	<string name="config_amauth_cookie_domain_default">".yourdomain1.tld"</string>
     
-  	<string name="config_google_maps_api_key">"ENTER YOUR GOOGLE MAPS API KEY HERE"</string><!-- key from google maps api registration page-->	
+  	<string name="config_google_maps_api_key">"ENTER GOOGLE MAPS API KEY HERE"</string><!-- key from google maps api registration page-->	
 	
 	<!-- Optional - Gmail account and password you would like your devices crash logs to get remotely posted to
      If you want to use Acra remote crash logs then you can uncomment out the 3 lines of acra code in "AcraApplication.java" onCreate method -->

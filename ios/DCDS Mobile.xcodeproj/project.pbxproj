@@ -70,6 +70,11 @@
 		01AB5DF41AD467BA00A879B0 /* ChatViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB5DF31AD467BA00A879B0 /* ChatViewCell.m */; };
 		01B04DE21BDA7490001898BB /* FormLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B04DE11BDA7490001898BB /* FormLocation.m */; };
 		01B04DE41BDA74BC001898BB /* FormLocation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B04DE31BDA74BC001898BB /* FormLocation.xib */; };
+		01B5201A1DF86E50007190A3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B520151DF86E50007190A3 /* Default-568h@2x.png */; };
+		01B5201B1DF86E50007190A3 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B520161DF86E50007190A3 /* Default-Landscape.png */; };
+		01B5201C1DF86E50007190A3 /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B520171DF86E50007190A3 /* Default-Landscape@2x.png */; };
+		01B5201D1DF86E50007190A3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B520181DF86E50007190A3 /* Default.png */; };
+		01B5201E1DF86E50007190A3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B520191DF86E50007190A3 /* Default@2x.png */; };
 		01C3238B1BB31ED0004DC747 /* MultipartPostQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C3238A1BB31ED0004DC747 /* MultipartPostQueue.m */; };
 		01C8BE711BFD1A9A00FF99B0 /* SelectSymbolMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C8BE6F1BFD1A9A00FF99B0 /* SelectSymbolMenuViewController.m */; };
 		01C8BE741BFE2DD800FF99B0 /* SelectSymbolMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C8BE731BFE2DD800FF99B0 /* SelectSymbolMenuViewController.xib */; };
@@ -93,7 +98,6 @@
 		3A141ABF18DB34AD00466AD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A141AA718DB34AC00466AD3 /* UIKit.framework */; };
 		3A141AC718DB34AD00466AD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A141AC518DB34AD00466AD3 /* InfoPlist.strings */; };
 		3A141AC918DB34AD00466AD3 /* DCDS_MobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A141AC818DB34AD00466AD3 /* DCDS_MobileTests.m */; };
-		3A3C9CF618DB403D00EEBA17 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3C9CF418DB403D00EEBA17 /* Main_iPad.storyboard */; };
 		3A3C9E1F18DB441200EEBA17 /* FieldReportData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3C9D6E18DB441200EEBA17 /* FieldReportData.m */; };
 		3A3C9E2018DB441200EEBA17 /* MarkupFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3C9D7018DB441200EEBA17 /* MarkupFeature.m */; };
 		3A3C9E2118DB441200EEBA17 /* OperationalPeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3C9D7218DB441200EEBA17 /* OperationalPeriod.m */; };
@@ -319,6 +323,11 @@
 		01B04DE01BDA7490001898BB /* FormLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormLocation.h; sourceTree = "<group>"; };
 		01B04DE11BDA7490001898BB /* FormLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormLocation.m; sourceTree = "<group>"; };
 		01B04DE31BDA74BC001898BB /* FormLocation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FormLocation.xib; sourceTree = "<group>"; };
+		01B520151DF86E50007190A3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "DCDS Mobile/Default-568h@2x.png"; sourceTree = "<group>"; };
+		01B520161DF86E50007190A3 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape.png"; path = "DCDS Mobile/Default-Landscape.png"; sourceTree = "<group>"; };
+		01B520171DF86E50007190A3 /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x.png"; path = "DCDS Mobile/Default-Landscape@2x.png"; sourceTree = "<group>"; };
+		01B520181DF86E50007190A3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "DCDS Mobile/Default.png"; sourceTree = "<group>"; };
+		01B520191DF86E50007190A3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "DCDS Mobile/Default@2x.png"; sourceTree = "<group>"; };
 		01C323891BB31ED0004DC747 /* MultipartPostQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipartPostQueue.h; sourceTree = "<group>"; };
 		01C3238A1BB31ED0004DC747 /* MultipartPostQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipartPostQueue.m; sourceTree = "<group>"; };
 		01C8BE6E1BFD1A9A00FF99B0 /* SelectSymbolMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectSymbolMenuViewController.h; sourceTree = "<group>"; };
@@ -364,7 +373,6 @@
 		3A141AC418DB34AD00466AD3 /* DCDS MobileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DCDS MobileTests-Info.plist"; sourceTree = "<group>"; };
 		3A141AC618DB34AD00466AD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3A141AC818DB34AD00466AD3 /* DCDS_MobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCDS_MobileTests.m; sourceTree = "<group>"; };
-		3A3C9CF418DB403D00EEBA17 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
 		3A3C9D6D18DB441200EEBA17 /* FieldReportData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldReportData.h; sourceTree = "<group>"; };
 		3A3C9D6E18DB441200EEBA17 /* FieldReportData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldReportData.m; sourceTree = "<group>"; };
 		3A3C9D6F18DB441200EEBA17 /* MarkupFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkupFeature.h; sourceTree = "<group>"; };
@@ -743,6 +751,11 @@
 		3A141A9718DB34AC00466AD3 = {
 			isa = PBXGroup;
 			children = (
+				01B520151DF86E50007190A3 /* Default-568h@2x.png */,
+				01B520161DF86E50007190A3 /* Default-Landscape.png */,
+				01B520171DF86E50007190A3 /* Default-Landscape@2x.png */,
+				01B520181DF86E50007190A3 /* Default.png */,
+				01B520191DF86E50007190A3 /* Default@2x.png */,
 				3A141AA918DB34AC00466AD3 /* DCDS Mobile */,
 				3A141AC218DB34AD00466AD3 /* DCDS MobileTests */,
 				3A141AA218DB34AC00466AD3 /* Frameworks */,
@@ -790,7 +803,6 @@
 			isa = PBXGroup;
 			children = (
 				0166C6751AE931B600716F1A /* Images */,
-				3A3C9CF418DB403D00EEBA17 /* Main_iPad.storyboard */,
 				01A7AEFE1BB583AB00F01926 /* Main_iPad_Prototype.storyboard */,
 				01D77CD61BB58CD2008B38BB /* Main_iPhone.storyboard */,
 				3A141AAB18DB34AC00466AD3 /* DCDS Mobile-Info.plist */,
@@ -1180,7 +1192,8 @@
 				ORGANIZATIONNAME = "MIT Lincoln Labs";
 				TargetAttributes = {
 					3A141A9F18DB34AC00466AD3 = {
-						DevelopmentTeam = G95YF369FG;
+						DevelopmentTeam = A35W4MM59Y;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -1188,7 +1201,7 @@
 						};
 					};
 					3A141ABA18DB34AD00466AD3 = {
-						DevelopmentTeam = G95YF369FG;
+						DevelopmentTeam = A35W4MM59Y;
 						TestTargetID = 3A141A9F18DB34AC00466AD3;
 					};
 				};
@@ -1226,12 +1239,15 @@
 				01F6AF6E1BE2A42700EED9B7 /* FormImageSelector.xib in Resources */,
 				015B55E71B2CAE8700240B16 /* uxoreport_schema.json in Resources */,
 				01C8BE761BFE2FA200FF99B0 /* SymbolCell.xib in Resources */,
+				01B5201D1DF86E50007190A3 /* Default.png in Resources */,
+				01B5201B1DF86E50007190A3 /* Default-Landscape.png in Resources */,
 				3A3C9E6E18DB441300EEBA17 /* MarkupCoordinateView.xib in Resources */,
 				3A3C9E5C18DB441300EEBA17 /* userinfo_schema.json in Resources */,
 				018474271C23231A000133AF /* SquareEditView.xib in Resources */,
 				018474311C232379000133AF /* LineEditView.xib in Resources */,
 				014969031BFBC91D00F164E2 /* MapEditView.xib in Resources */,
 				0168EBAC1DDF71E7008424F2 /* images.xcassets in Resources */,
+				01B5201C1DF86E50007190A3 /* Default-Landscape@2x.png in Resources */,
 				0184741D1C2321EB000133AF /* CircleEditView.xib in Resources */,
 				01B04DE41BDA74BC001898BB /* FormLocation.xib in Resources */,
 				3A3C9E6418DB441300EEBA17 /* FormEditText.xib in Resources */,
@@ -1243,12 +1259,13 @@
 				018474221C2322CF000133AF /* SymbolEditView.xib in Resources */,
 				013969661DC7BBD20011BC4E /* DCDS Mobile-Info.plist in Resources */,
 				01582D911C29F8A000307C76 /* weatherreport_schema.json in Resources */,
-				3A3C9CF618DB403D00EEBA17 /* Main_iPad.storyboard in Resources */,
 				3A3C9E5B18DB441300EEBA17 /* tasking_schema.json in Resources */,
 				3A3C9E6818DB441300EEBA17 /* FormView.xib in Resources */,
 				01D77CE51BB5C872008B38BB /* FormDamageInformation.xib in Resources */,
 				017A58DC1C0F948000E683F0 /* ReportInfoWindow.xib in Resources */,
 				01D77CD41BB58CD2008B38BB /* Main_iPhone.storyboard in Resources */,
+				01B5201E1DF86E50007190A3 /* Default@2x.png in Resources */,
+				01B5201A1DF86E50007190A3 /* Default-568h@2x.png in Resources */,
 				01A7AEFC1BB583AB00F01926 /* Main_iPad_Prototype.storyboard in Resources */,
 				0184742C1C23234E000133AF /* PolygonEditView.xib in Resources */,
 				01A6542D1BB587D000FFCAEF /* Localizable.strings in Resources */,
@@ -1571,9 +1588,10 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Piyush Agarwal (U3RY368AD8)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = A35W4MM59Y;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1590,7 +1608,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "64261C35-4D92-450B-BF75-A9E9FA060198";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv7 armv7s";
@@ -1613,9 +1631,10 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Piyush Agarwal (U3RY368AD8)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = A35W4MM59Y;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1626,7 +1645,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "64261C35-4D92-450B-BF75-A9E9FA060198";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1642,6 +1661,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = A35W4MM59Y;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1692,6 +1712,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.mit.DCDS-Mobile";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv7 arm64 armv7s";
 				WRAPPER_EXTENSION = app;
@@ -1706,6 +1727,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = A35W4MM59Y;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1756,6 +1778,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.mit.DCDS-Mobile";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv7 arm64 armv7s";
 				WRAPPER_EXTENSION = app;

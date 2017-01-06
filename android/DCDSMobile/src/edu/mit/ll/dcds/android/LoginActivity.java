@@ -182,17 +182,19 @@ public class LoginActivity extends ActionBarActivity implements OnCheckedChangeL
 		mLoginFormView = findViewById(R.id.login_form);
 		mLoginStatusView = findViewById(R.id.login_status);
 		mLoginStatusMessageView = (TextView) findViewById(R.id.login_status_message);
-
-		mTabletLayoutToggle = (CheckBox)findViewById(R.id.tablet_layout_toggle);
-		int screenSize = getResources().getConfiguration().screenLayout &
-		        Configuration.SCREENLAYOUT_SIZE_MASK;
-
-		if(screenSize == Configuration.SCREENLAYOUT_SIZE_XLARGE || screenSize == Configuration.SCREENLAYOUT_SIZE_LARGE){
-			mTabletLayoutToggle.setChecked(mDataManager.getTabletLayoutOn());
-		}else{
-			mTabletLayoutToggle.setChecked(false);
-			mTabletLayoutToggle.setVisibility(View.GONE);
-		}
+	
+		//Uncomment to show beta tablet mode toggle on login screen
+		//also change line in  swtichToMainActivity().run() to get checkbox value and in dataReceiver().run()
+//		mTabletLayoutToggle = (CheckBox)findViewById(R.id.tablet_layout_toggle);
+//		int screenSize = getResources().getConfiguration().screenLayout &
+//		        Configuration.SCREENLAYOUT_SIZE_MASK;
+//
+//		if(screenSize == Configuration.SCREENLAYOUT_SIZE_XLARGE || screenSize == Configuration.SCREENLAYOUT_SIZE_LARGE){
+//			mTabletLayoutToggle.setChecked(mDataManager.getTabletLayoutOn());
+//		}else{
+//			mTabletLayoutToggle.setChecked(false);
+//			mTabletLayoutToggle.setVisibility(View.GONE);
+//		}
 		
 		findViewById(R.id.sign_in_button).setOnClickListener(
 				new View.OnClickListener() {
@@ -495,7 +497,8 @@ public class LoginActivity extends ActionBarActivity implements OnCheckedChangeL
 				@Override
 				public void run() {
 					if(mIncidentsReceived && mOrganizaitonsRecieved) {
-						mDataManager.setTabletLayoutOn(mTabletLayoutToggle.isChecked());
+//						mDataManager.setTabletLayoutOn(mTabletLayoutToggle.isChecked());
+						mDataManager.setTabletLayoutOn(false);
 						Intent mainIntent = new Intent(LoginActivity.this, MainActivity.class);
 						mainIntent.putExtra("showOrgSelector", true);
 						startActivity(mainIntent);
@@ -522,7 +525,8 @@ public class LoginActivity extends ActionBarActivity implements OnCheckedChangeL
 			
 			@Override
 			public void run() {
-				mDataManager.setTabletLayoutOn(mTabletLayoutToggle.isChecked());
+//				mDataManager.setTabletLayoutOn(mTabletLayoutToggle.isChecked());
+				mDataManager.setTabletLayoutOn(false);
 				Intent mainIntent = new Intent(LoginActivity.this, MainActivity.class);
 				mainIntent.putExtra("showOrgSelector", true);
 				startActivity(mainIntent);

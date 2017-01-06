@@ -34,20 +34,20 @@ public class MyOrgCapabilities {
 	boolean two15 = false;
 	boolean SITREP = false;
 	boolean ASSGN = false;
-	boolean SR = false;
+	boolean SR = true;
 	boolean FR = false;
 	boolean TASK = false;
 	boolean RESREQ = false;
 	boolean ROC = false;
 	boolean nine110 = false;
-	boolean UXO = false;
-	boolean DMGRPT = false;
+	boolean UXO = true;
+	boolean DMGRPT = true;
 	boolean MITAM = false;
-	boolean WR = false;
+	boolean WR = true;
 	boolean MIV = false;
 	boolean CENSUS = false;
 	boolean WA = false;
-	boolean CHAT = false;
+	boolean CHAT = true;
 			
 	public void resetCapabilitiesToOff(){
 		 RESC = false;
